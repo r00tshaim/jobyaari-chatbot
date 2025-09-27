@@ -1,0 +1,6 @@
+# 3. Start services
+# Terminal 1: Start API server
+uv run python server.py
+
+# Terminal 2: Start frontend
+uv run streamlit run frontend.py
